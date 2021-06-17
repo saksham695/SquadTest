@@ -1,6 +1,8 @@
 import { ACTIONS } from "./action";
 
-export const initialState = {};
+export const initialState = {
+  name: "",
+};
 
 export const reducer = (state, action) => {
   const { payload, type } = action;
