@@ -1,1 +1,5 @@
-export const ACTIONS = {};
+export const ACTIONS = {
+  ADD_KEY: "ADD_KEY",
+  ADD_LIST_ITEM: "ADD_LIST_ITEM",
+  DRAGGED: "DRAGGED",
+};
